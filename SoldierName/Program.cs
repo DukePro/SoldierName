@@ -13,12 +13,12 @@ namespace SoldierNames
 
     class Menu
     {
-        private const string ShowAllCommand = "1";
-        private const string ShowNameRankCommand = "2";
-        private const string Exit = "0";
-
         public void Run()
         {
+            const string ShowAllCommand = "1";
+            const string ShowNameRankCommand = "2";
+            const string Exit = "0";
+
             string userInput;
             bool isExit = false;
 
